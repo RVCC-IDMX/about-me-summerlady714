@@ -1,3 +1,37 @@
 body {
-    background-color: rgba(66, 132, 155, 0.35);
+    background-color: #8E537E;
+    font-style: 
 }
+
+
+
+
+
+
+
+
+header{ 
+    text-align:center;
+}
+
+#hero, footer{
+    background-color: aqua;
+    text-align:center;
+    padding:10px;
+    border: 5px solid red;
+}
+
+#hero img{ 
+    width:300px;
+max-width: 100%;
+}
+
+#bio{
+    text-align: center;
+
+}
+
+
+#hobbies ul li{color: red;}
+#hobbies ul li :nth-child(3n-1){color:green;}
+#hobbies ul li :nth-child(3n){color:blue}
