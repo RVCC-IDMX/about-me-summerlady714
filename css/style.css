@@ -1,28 +1,29 @@
 body {
     background-color: #8E537E;
-    font-style: 
+    color:#54E339;
+    font-family:petit formal script;
 }
 
-
-
-
-
-
-
-
+h1, h2, h3, h4, h5, h6{
+    font-family:charm;
+    font-size:400%;
+}
+#hero{
+    text-align:center;
+}
 header{ 
     text-align:center;
 }
 
 #hero, footer{
-    background-color: aqua;
+    background-color: #4B5663;
     text-align:center;
-    padding:10px;
-    border: 5px solid red;
+    padding:5px;
+    border: 5px solid #3989E3;
 }
 
 #hero img{ 
-    width:300px;
+    width:400px;
 max-width: 100%;
 }
 
