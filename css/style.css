@@ -24,16 +24,29 @@ header{
     padding:5px;
     border: 5px solid #3989E3;
 }
+/*Hero Section*/
 
 #hero img{ 
     width:400px;
 max-width: 100%;
 }
-
+/*Bio Section*/
 #bio{
     text-align: center;
-
 }
+/*Hobbies*/
+
 #hobbies ul li{color: red;}
 #hobbies ul li:nth-child(3n-1){color:rgb(251, 240, 24);}
 #hobbies ul li:nth-child(3n){color:rgb(0, 225, 255)}
+/*Gallery*/
+
+#gallery{
+    border:2px solid rgb(251, 240, 24);
+}
+#gallery img{
+    max-width:100%;
+}
+#gallery figure{
+    text-align:center;
+}
