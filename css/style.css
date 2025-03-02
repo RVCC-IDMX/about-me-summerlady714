@@ -4,9 +4,12 @@ body {
     font-family:petit formal script;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1 {
     font-family:charm;
     font-size:400%;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-align:center;
 }
 #hero{
     text-align:center;
@@ -31,8 +34,6 @@ max-width: 100%;
     text-align: center;
 
 }
-
-
 #hobbies ul li{color: red;}
-#hobbies ul li :nth-child(3n-1){color:green;}
-#hobbies ul li :nth-child(3n){color:blue}
+#hobbies ul li:nth-child(3n-1){color:rgb(251, 240, 24);}
+#hobbies ul li:nth-child(3n){color:rgb(0, 225, 255)}
