@@ -42,11 +42,38 @@ max-width: 100%;
 /*Gallery*/
 
 #gallery{
-    border:2px solid rgb(251, 240, 24);
+    border:2px solid #fbf018;
+    margin-bottom:3rem;
 }
 #gallery img{
     max-width:100%;
 }
 #gallery figure{
     text-align:center;
+}
+
+/*Literature*/
+
+#lit {
+    border:2px solid rgb(0, 225, 255);
+    margin-bottom:3rem;
+}
+#lit div{
+    padding:2rem;
+    max-width:40rem;
+    margin: 0 auto;
+}
+#lit div p{
+    padding: 0.3rem 0;
+
+}
+/*Dropcaps*/
+
+#lit div p:first-letter{
+    color:#fbf018;
+    float:left;
+    font-size:3em;
+
+
+
 }
